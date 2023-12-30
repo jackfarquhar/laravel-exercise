@@ -16,5 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::group(['middleware' => ['web']], function () {
   Route::get('/', 'App\Http\Controllers\MainController@home');
   Route::get('/customers', 'App\Http\Controllers\CustomerController@listing');
-  Route::get('/customers/{$id}/contacts', 'App\Http\Controllers\CustomerController@contacts');
+  Route::get('/customers/{id}/contacts', 'App\Http\Controllers\CustomerController@contacts');
 });
