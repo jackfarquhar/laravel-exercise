@@ -8,4 +8,5 @@ To get started, fork this repository, clone into an environment of your choosing
 
 - On a Mac? <a href="https://herd.laravel.com/">Laravel Herd</a> can be useful for getting things set up locally. <a href="https://www.apachefriends.org/">XAMPP</a> is useful for Windows.
 - The MySQL seed file to set up your local MySQL tables is in the root directory - seed.sql
+- Composer is used for dependency management. So you will need to run `composer install` after cloning.
 - There is a .env.example file in the app root folder. You can create a .env file from this. The main parameters to worry about in this case are your MySQL credentials.
